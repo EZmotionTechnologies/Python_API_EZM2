@@ -1,0 +1,16 @@
+import time
+from .EZMotionMMS2 import *
+Motor1= Ezm("COM24", 2, 115200)
+Motor1._Shutdown()
+Motor1._Set_Op_Mode("SPEED")
+Motor1._Shutdown()
+Motor1._Set_Acceleration(500)
+Motor1._Set_Deceleration(500)
+Motor1._Set_Target_Velocity(-1000)
+Motor1._Enable_Motor()
+time.sleep(5)
+print("Motor Speed = ", Motor1._Read_Actual_Velocity())
+print(Motor1._Read_Op_Mode())
+Motor1._Set_Target_Velocity(1000)
+time.sleep(5)
+Motor1._Disable_Motor()
