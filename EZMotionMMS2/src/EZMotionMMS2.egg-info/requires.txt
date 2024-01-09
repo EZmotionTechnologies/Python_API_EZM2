@@ -1,0 +1,4 @@
+setuptools>=42
+pyserial>=3.0
+numpy>=1.21.6
+minimalmodbus>=2.0.1
