@@ -7,7 +7,7 @@ Python wrapper built around minimalmodbus for controlling EZMotion MMP/ MMS 740 
 
 
 
-![Wiring Diagram](https://github.com/EZmotionTechnologies/Python_API_EZM2/tree/main/EZMotionMMS2/src/Wiring.JPG )
+![Wiring Diagram](https://github.com/EZmotionTechnologies/Python_API_EZM2/tree/main/EZMotionMMS2/img/Wiring.JPG )
 
 Example: Position Mode (Single motor)
 --------------
